@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TestClasses">
+      <UniqueIdentifier>{d85f9942-c762-47fd-8e3c-77471cee32d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestMethods">
+      <UniqueIdentifier>{82234973-5b94-4730-abc7-88e8063f96eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PreCompiledHeader">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="TestHelpers">
+      <UniqueIdentifier>{cd602d79-31fc-493d-bb90-127880bafb75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e7b1a8f8-e04d-4ac9-bf49-93592bff4a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestClasses\AttributedTestClasses">
+      <UniqueIdentifier>{57b4066a-d332-41f3-8a17-44bfa81ae705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestClasses\ParseTestClasses">
+      <UniqueIdentifier>{058c9ff9-0aa8-410b-a8e0-69276a546494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestClasses\GameObjectTestClasses">
+      <UniqueIdentifier>{9fac717a-3e97-49fe-bbb6-ce0078f1214b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Attributed.test.cpp">
+      <Filter>TestMethods</Filter>
+    </ClCompile>
+    <ClCompile Include="Datum.test.cpp">
+      <Filter>TestMethods</Filter>
+    </ClCompile>
+    <ClCompile Include="FIEAGameEngine.test.cpp">
+      <Filter>TestMethods</Filter>
+    </ClCompile>
+    <ClCompile Include="FooTests.cpp">
+      <Filter>TestMethods</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleInheritance.test.cpp">
+      <Filter>TestMethods</Filter>
+    </ClCompile>
+    <ClCompile Include="RTTI.test.cpp">
+      <Filter>TestMethods</Filter>
+    </ClCompile>
+    <ClCompile Include="Scope.test.cpp">
+      <Filter>TestMethods</Filter>
+    </ClCompile>
+    <ClCompile Include="Dummy.cpp">
+      <Filter>TestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Empty.cpp">
+      <Filter>TestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Foo.cpp">
+      <Filter>TestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Temp.cpp">
+      <Filter>TestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>PreCompiledHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedFoo.cpp">
+      <Filter>TestClasses\AttributedTestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>TestClasses\AttributedTestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Dragon.cpp">
+      <Filter>TestClasses\AttributedTestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseHandler.test.cpp">
+      <Filter>TestMethods</Filter>
+    </ClCompile>
+    <ClCompile Include="TestParseHandler.cpp">
+      <Filter>TestClasses\ParseTestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="TestIntHandler.cpp">
+      <Filter>TestClasses\ParseTestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.test.cpp">
+      <Filter>TestMethods</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.test.cpp">
+      <Filter>TestMethods</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterGameObject.cpp">
+      <Filter>TestClasses\GameObjectTestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.test.cpp">
+      <Filter>TestMethods</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>PreCompiledHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Dummy.h">
+      <Filter>TestClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Empty.h">
+      <Filter>TestClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Foo.h">
+      <Filter>TestClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Temp.h">
+      <Filter>TestClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="TestTypes.h">
+      <Filter>TestHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedFoo.h">
+      <Filter>TestClasses\AttributedTestClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>TestClasses\AttributedTestClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <Filter>TestClasses\AttributedTestClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="TestIntHandler.h">
+      <Filter>TestClasses\ParseTestClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="TestParseHandler.h">
+      <Filter>TestClasses\ParseTestClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterGameObject.h">
+      <Filter>TestClasses\GameObjectTestClasses</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="Test.json">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>

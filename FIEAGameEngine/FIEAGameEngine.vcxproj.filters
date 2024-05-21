@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{bd74216b-889e-4653-889e-0b976c384c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action">
+      <UniqueIdentifier>{c5666d7b-7127-4abb-80fa-911f2b9f1e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Attributed">
+      <UniqueIdentifier>{e4a800b2-2aba-47a9-a266-7aaa15992f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSONParse">
+      <UniqueIdentifier>{bb51fee6-da1a-42ab-93dd-fca4a814eb86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{01023595-3a08-4e50-9d9f-0c1aa12143cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scope.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Datum.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionList.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionIncrement.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionListWhile.h">
+      <Filter>Action</Filter>
+    </ClInclude>
+    <ClInclude Include="RTTI.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributed.h">
+      <Filter>Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeRegistry.h">
+      <Filter>Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseCoordinator.h">
+      <Filter>JSONParse</Filter>
+    </ClInclude>
+    <ClInclude Include="IParseHandler.h">
+      <Filter>JSONParse</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopeFactory.h">
+      <Filter>JSONParse</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="Signature.h">
+      <Filter>Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClock.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopeHandler.h">
+      <Filter>JSONParse</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Datum.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Scope.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionIncrement.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionList.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionListWhile.cpp">
+      <Filter>Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributed.cpp">
+      <Filter>Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="RTTI.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeRegistry.cpp">
+      <Filter>Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseCoordinator.cpp">
+      <Filter>JSONParse</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeFactory.cpp">
+      <Filter>JSONParse</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClock.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeHandler.cpp">
+      <Filter>JSONParse</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Datum.inl">
+      <Filter>Core</Filter>
+    </None>
+    <None Include="RTTI.inl">
+      <Filter>Core</Filter>
+    </None>
+  </ItemGroup>
+</Project>
